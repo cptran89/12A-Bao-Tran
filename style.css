@@ -3,5 +3,10 @@ html {
   width: 100%;
 }
 form {
-  background-color: pastel green;
+background-color: pastel green;
+h1 { color:firebrick;font-family:Verdana;}
+b {color:indianred;}
+label {font-size: 15px; font-weight:bold;}
+input {background-color:yellow;}
+textarea {background-color: ivory;}
 }
