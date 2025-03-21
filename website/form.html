@@ -1,31 +1,30 @@
 <html>
   <head>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
     <link href="website/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1> Đóng góp ý kiến cho thư viện của nhà trường </h1>
-    <form>
+    <form action="website/NV3.html" method="get">
       <ol>
-        <li> <b> Thông tin về người góp ý </b> 
-        <label> Họ và tên: </label>
-        <input type="hovaten" id="hovaten"></input> 
-      </li>
-        <li> <b> Đóng góp ý kiến </b>
-        <label> Ý kiến đóng góp </label> <br>
-        <textarea id="yk" name= "yk" rows="5" cols ="50"> </textarea>
+        <li><b>Thông tin về người góp ý</b>
+          <label>Họ và tên: </label>
+          <input type="text" id="hovaten" name="hovaten"> 
+        </li>
+        <li><b>Đóng góp ý kiến</b>
+          <label>Ý kiến đóng góp</label> <br>
+          <textarea id="yk" name="yk" rows="5" cols="50"></textarea> <br>
+
+          <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
+          <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
+          <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
+          <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
+          <input type="checkbox" name="chkLichSu"> Lịch sử <br>
+
           <br>
-      <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
-      <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
-      <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
-      <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
-      <input type="checkbox" name="chkLichSu"> Lịch sử <br>
-      <input type="checkbox" name="chkid"> Id <br>
-      <input type="submit" name="cmd" value="Góp ý"> 
-      
-      </li>
+          <input type="submit" name="cmd" value="Góp ý"> 
+        </li>
       </ol>
     </form>
-    <form action="website/NV3.html" method="GET"> </form>
   </body>
 </html>
