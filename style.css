@@ -10,7 +10,7 @@ label {font-size: 15px; font-weight:bold;}
 input {background-color:yellow;}
 textarea {background-color: ivory;}
 }
-.header{background-color:lightblue; text-align: center; padding:20px;}
+.header{background-color:blue; text-align: center; padding:20px;}
 .topnav{overflow: hidden; background-color:lightgrey;}
 .topnav a{float: left; display: block; color: purple; text-align: center; padding: 14px 16px;}
 .topnav a:hover{background-color: lightblue; color: darkred;}
